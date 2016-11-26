@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>br.com.eu</groupId>
+	<artifactId>groovy-archetype</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>groovy-archetype</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<developers>
+		<developer>
+			<id>eborges</id>
+			<name>Elizeu Borges</name>
+			<email>elizeuborges@hotmail.com</email>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/elizeuborges/archetypes.git</connection>
+		<developerConnection>scm:git:git@github.com:elizeuborges/archetypes.git</developerConnection>
+		<url>http://github.com/elizeuborges/archetypes/tree/master/groovy-archetype</url>
+	</scm>
+
+
+</project>
