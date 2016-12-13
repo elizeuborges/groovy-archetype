@@ -41,6 +41,7 @@
 			<directory></directory>
 			<includes>
 				<include>.travis.yml</include>
+				<include>.gitignore</include>
 				<include>README.md</include>
 			</includes>
 		</fileSet>
