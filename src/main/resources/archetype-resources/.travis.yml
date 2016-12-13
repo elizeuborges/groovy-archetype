@@ -1,6 +1,18 @@
 language: java
 sudo: false
+install: true
+addons:
+  sonarqube: true    
+env:
+  global:
+    - secure: ""      
 jdk:
   - oraclejdk8
+script:
+  - mvn clean test sonar:sonar -Dsonar.login=$SONAR_TOKEN
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+    - '$HOME/.sonar/cache'
 after_success:
   - bash <(curl -s https://codecov.io/bash)
